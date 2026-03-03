@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import TopNav from "../components/layout/TopNav";
-import DesignControls from "../components/panels/DesignControls";
-import BuildingViewer from "../components/panels/BuildingViewer";
-import PerformancePanel from "../components/panels/PerformancePanel";
-import DesignComparison from "../components/panels/DesignComparison";
-import FacadeCustomization from "../components/panels/FacadeCustomization";
-import ExportShare from "../components/panels/ExportShare";
-import ImageGallery from "../components/panels/ImageGallery";
+import TopNav from "@/components/layout/TopNav";
+import DesignControls from "@/components/panels/DesignControls";
+import BuildingViewer from "@/components/panels/BuildingViewer";
+import PerformancePanel from "@/components/panels/PerformancePanel";
+import DesignComparison from "@/components/panels/DesignComparison";
+import FacadeCustomization from "@/components/panels/FacadeCustomization";
+import ExportShare from "@/components/panels/ExportShare";
+import ImageGallery from "@/components/panels/ImageGallery";
 
 export default function Home() {
   const [params, setParams] = useState({
